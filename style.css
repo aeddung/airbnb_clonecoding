@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background: linear-gradient(to top, white 75%, black 35%);
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
         Helvetica Neue, sans-serif;
 }
@@ -313,7 +313,6 @@ a:link {
     margin-left: 33px;
     margin-top: 13px;
 }
-
 
 .idea {
     padding: 0 150px 0 150px;
