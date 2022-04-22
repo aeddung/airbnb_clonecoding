@@ -1,0 +1,351 @@
+.idea {
+    padding: 0 150px 0 150px;
+
+    max-width: 1600px;
+}
+.ideaTop {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 48px;
+}
+
+.ideaBottom {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    column-gap: 24px;
+    min-height: 510px;
+}
+
+.ctgr-img {
+    object-fit: cover;
+    object-position: center center;
+    vertical-align: bottom;
+    width: 100%;
+    height: 100%;
+}
+
+.ctgr1,
+.ctgr2,
+.ctgr3,
+.ctgr4 {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.ctgr1-t,
+.ctgr1-b,
+.ctgr2-t,
+.ctgr2-b,
+.ctgr3-t,
+.ctgr3-b,
+.ctgr4-t,
+.ctgr4-b {
+    height: 50%;
+}
+
+.ctgr1-b {
+    background-color: #d93b30;
+}
+.ctgr2-b {
+    background-color: #cc2d4a;
+}
+.ctgr3-b {
+    background-color: #bc1a6b;
+}
+.ctgr4-b {
+    background-color: #de3151;
+}
+.ctgr1-b-txt,
+.ctgr2-b-txt,
+.ctgr3-b-txt,
+.ctgr4-b-txt {
+    padding: 20px 16px;
+}
+
+.loc {
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.dst {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.ctgr1-b-t,
+.ctgr2-b-t,
+.ctgr3-b-t,
+.ctgr4-b-t {
+    margin-bottom: 12px;
+}
+
+/* ///////////////////////////////////////////// */
+/*여기 부터 exp 입니다.*/
+/* //////////////////////////////////////////////// */
+
+.exp {
+    padding: 0 150px 0 150px;
+
+    max-width: 1600px;
+
+    padding-top: 96px;
+    width: 1600px;
+}
+
+.expTop,
+.expBottom {
+    width: 100%;
+}
+.expBottom {
+    display: flex;
+}
+
+.expTop {
+    padding-bottom: 48px;
+}
+
+.expBottomCover {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    column-gap: 24px;
+}
+
+.expLeft,
+.expRight {
+    display: grid;
+    position: relative;
+    width: 50%;
+}
+
+.left-content,
+.right-content {
+    position: absolute;
+    padding: 80px;
+}
+
+.exp-img {
+    border-radius: 20px;
+    box-sizing: border-box;
+    max-height: 900px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.expTopText {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.left-t,
+.right-t {
+    padding-bottom: 40px;
+}
+
+.left-t-txt,
+.right-t-txt {
+    line-height: 60px;
+    color: white;
+    font-size: 53px;
+    font-weight: 600;
+}
+
+.left-b-txt,
+.right-b-txt {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    padding: 14px 24px;
+    border-radius: 10px;
+}
+
+/* //////////////////////////////////////////////////// */
+/* 여기서부터 hosting입니다. */
+/* /////////////////////////////////////////////////// */
+
+.host {
+    padding: 0 150px 48px 150px;
+
+    max-width: 1600px;
+
+    padding-top: 96px;
+    display: flex;
+    flex-direction: column;
+    width: 1600px;
+}
+
+.host_img {
+    border-radius: 20px;
+    box-sizing: border-box;
+    object-fit: cover;
+    width: 100%;
+}
+
+.host_content {
+    position: absolute;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.host_t {
+    height: 592px;
+}
+.host_txt {
+    font-size: 95px;
+    font-weight: 600;
+    line-height: 105px;
+    letter-spacing: -0.02em;
+    color: white;
+}
+.host_b {
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.host_btn {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    padding: 14px 24px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+/* ############################################### */
+/* 여기서부터 footer 입니다. */
+/* ############################################### */
+
+footer {
+    background-color: #f7f7f7f7;
+}
+.footer_content {
+    padding: 0 139.5px;
+
+    max-width: 1600px;
+}
+
+.footer_top {
+    padding: 48px 0px;
+    /* margin: -12px; */
+    display: flex;
+    width: 1624px;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+h3 {
+    font-size: 14px;
+    margin-top: 0px !important;
+}
+.list {
+    list-style: none;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    width: 382px;
+}
+
+.f_t_list {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;
+}
+.f_support,
+.f_community,
+.f_hosting,
+.f_intro {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* footwe bottom */
+
+.footer_bottom_content {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 1600px;
+    height: 69px;
+    justify-content: space-between;
+    border-top: 1px solid rgb(221, 221, 221);
+    object-fit: cover;
+}
+
+.f_b_right {
+    align-items: center;
+    /* justify-content: left; */
+    display: flex;
+    flex-direction: row;
+    object-fit: cover;
+}
+
+.f_b_left {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.hyperlink {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.link {
+    width: 18px;
+    height: 18px;
+}
+.earth_img {
+    width: 16px;
+    height: 16px;
+}
+
+.word,
+.ex_change {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.company {
+    font-size: 14px;
+    font-weight: 600;
+}
+.dot {
+    font-size: 16px;
+    width: 13px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.f_b_l_list {
+    font-size: 14px;
+}
+
+.f_b_list {
+    margin-left: 20px;
+}
+
+.f_b_r_1 {
+    width: 198px;
+}
+.word {
+    margin-right: 20px;
+}
+.f_b_r_2 {
+    width: 186px;
+    display: flex;
+    justify-content: left;
+}
+
+ul {
+    padding-inline-start: 0px !important;
+}
