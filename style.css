@@ -2,6 +2,12 @@ body {
     background: linear-gradient(to top, white 75%, black 35%);
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
         Helvetica Neue, sans-serif;
+    margin: 0;
+}
+
+/* remove horizontal scroll */
+.whole-body {
+    overflow: hidden;
 }
 
 .head-1 {
@@ -256,6 +262,7 @@ a:link {
 .body-2 {
     display: grid;
     justify-items: center;
+    margin-bottom: 5%;
 }
 
 .body-sub-2 {
@@ -270,7 +277,7 @@ a:link {
 }
 
 .body-image img {
-    width: 1400px;
+    width: 1395px;
     height: 750px;
     object-fit: cover;
     border-radius: 12px;
@@ -315,22 +322,22 @@ a:link {
 }
 
 .idea {
-    padding: 0 150px 0 150px;
-
+    padding: 0 70px 0px 70px;
     max-width: 1600px;
 }
 .ideaTop {
     font-size: 42px;
-    font-weight: 800;
+    font-weight: 500;
     margin-bottom: 48px;
 }
 
 .ideaBottom {
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
     width: 100%;
     column-gap: 24px;
-    min-height: 510px;
+    height: 450px;
 }
 
 .ctgr-img {
@@ -404,12 +411,9 @@ a:link {
 /* //////////////////////////////////////////////// */
 
 .exp {
-    padding: 0 150px 0 150px;
-
+    padding: 0 70px 0 70px;
     max-width: 1600px;
-
     padding-top: 96px;
-    width: 1600px;
 }
 
 .expTop,
@@ -418,6 +422,8 @@ a:link {
 }
 .expBottom {
     display: flex;
+    justify-content: space-between;
+    padding-right: 0px;
 }
 
 .expTop {
@@ -426,6 +432,7 @@ a:link {
 
 .expBottomCover {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     height: 100%;
     width: 100%;
@@ -448,14 +455,14 @@ a:link {
 .exp-img {
     border-radius: 20px;
     box-sizing: border-box;
-    max-height: 900px;
+    max-height: 850px;
     object-fit: cover;
     width: 100%;
 }
 
 .expTopText {
     font-size: 42px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .left-t,
@@ -485,14 +492,11 @@ a:link {
 /* /////////////////////////////////////////////////// */
 
 .host {
-    padding: 0 150px 48px 150px;
-
+    padding: 0 70px 48px 70px;
     max-width: 1600px;
-
     padding-top: 96px;
     display: flex;
     flex-direction: column;
-    width: 1600px;
 }
 
 .host_img {
@@ -504,7 +508,7 @@ a:link {
 
 .host_content {
     position: absolute;
-    padding: 80px;
+    padding: 90px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -512,6 +516,7 @@ a:link {
 
 .host_t {
     height: 592px;
+    margin-bottom: -20%;
 }
 .host_txt {
     font-size: 95px;
@@ -531,7 +536,7 @@ a:link {
     background-color: white;
     padding: 14px 24px;
     line-height: 20px;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 8px;
 }
 
@@ -541,20 +546,21 @@ a:link {
 
 footer {
     background-color: #f7f7f7f7;
+    max-width: 1600px;
 }
 .footer_content {
-    padding: 0 139.5px;
-
+    padding: 0 70px;
     max-width: 1600px;
 }
 
 .footer_top {
-    padding: 48px 0px;
+    padding-top: 48px;
+    padding-bottom: 48px;
     /* margin: -12px; */
     display: flex;
-    width: 1624px;
+    width: 1270px;
     flex-direction: row;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 h3 {
@@ -564,9 +570,9 @@ h3 {
 .list {
     list-style: none;
     font-size: 14px;
+    font-weight: 200;
     margin: 0px;
     padding: 0px;
-    width: 382px;
 }
 
 .f_t_list {
@@ -582,13 +588,25 @@ h3 {
     padding-right: 12px;
 }
 
-/* footwe bottom */
+.f_community {
+    margin-right: -5%;
+}
+
+.f_hosting {
+    margin-left: 8%;
+}
+
+/* footer bottom */
+
+.footer_bottom {
+    max-width: 1600px;
+}
 
 .footer_bottom_content {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    width: 1600px;
+    max-width: 1600px;
     height: 69px;
     justify-content: space-between;
     border-top: 1px solid rgb(221, 221, 221);
@@ -632,7 +650,7 @@ h3 {
 
 .company {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 200;
 }
 .dot {
     font-size: 16px;
@@ -644,6 +662,7 @@ h3 {
 
 .f_b_l_list {
     font-size: 14px;
+    font-weight: 200;
 }
 
 .f_b_list {
